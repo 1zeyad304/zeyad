@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homebage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+<!--header 1-->
+<header>
+    <div class="top_header">
+        <div class="bar">
+            
+            <div class="navleft">
+                <button  class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <nav class="nav-links" id="navMenu">
+                  <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+                  <div class="nav-section-title">Browser Categories</div>
+                  <hr>
+                  <a href="homebage.html">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Support</a>
+              
+                  <div class="nav-section-title">car Categories</div>
+                  <hr>
+                  <a href="HYUNDAI.html">Hyundai</a>
+                  <a href="#">BMW</a>
+                  <a href="SKODA.HTML">Skoda</a>
+                  <a href="#">KIA</a>
+                  <a href="#">Toyota</a>
+                </nav>
+            </div>
+        </div>
+        <div class="contain">
+            <a href="#" class="logo">
+                <img src="img/logoo.jpg" alt="">
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="search for products" required>
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <button onclick="toggleText()" class="dark"  id="toggleBtn">🌙</button>
+        <div onclick="open_cart()" class="icon">
+    </div>
+</header>
+<div class="body">
+    <div class="pp">
+        <h1>To see each car, click on the image of the type you want.</h1>
+    </div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="bar/photo.png" alt=""></div>
+        <div class="swiper-slide"><img src="bar/pngwing.com.png" alt=""></div>
+        <div class="swiper-slide"><img src="bar/bmw.png" alt=""></div>
+        <div class="swiper-slide"><img src="bar/merceds.png" alt=""></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+<!--fouter الي هو اخر الصفحه-->
+<footer>
+    <div class="container">
+        <div class="big_row">
+            <img class="logo_footer" src="img/logo_footer.jpg" alt="">
+            <p> Helwan Ajancy to explain comprehensiv information about cars  </p>
+            <div class="icons_footer">
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <h4>Find It Fast</h4>
+
+            <div class="links">
+                <a href="HYUNDAI.html"><i class="fa-solid fa-caret-right"></i> HYNDAI </a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i> BMW</a>
+                <a href="SKODA.HTML"><i class="fa-solid fa-caret-right"></i> skoda</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i> merceds</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i> KIA</a>
+            </div>
+        </div>
+        <div class="row">
+            <h4>Quick Links</h4>
+
+            <div class="links">
+                <a href="#"><i class="fa-solid fa-caret-right"></i> Your Account </a>
+
+            </div>
+        </div>
+        <div class="row">
+            <h4>Service us</h4>
+
+            <div class="links">
+                <a href="#"><i class="fa-solid fa-caret-right"></i> Support Center</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i> Help</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i> FAQS</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_footer">
+        <div class="container">
+            <p>&copy; <span>Helwan Agancy.</span>All Rights Reserved.</p>
+            <div class="payment_img">
+                <img src="img/payment_method.png" alt="">
+            </div>
+        </div>
+    </div>
+ </footer>
+
+<!-- javascribt-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="homebage.js"></script>
+</body>
+</html>

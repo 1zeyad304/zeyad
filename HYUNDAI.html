@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYUNDAI</title>
+    <link rel="stylesheet" href="HYUNDAI.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<!--header 1-->
+    <header>
+        <div class="top_header">
+            <div class="bar">
+                
+                <div class="navleft">
+                    <button  class="menu-toggle" onclick="toggleMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <nav class="nav-links" id="navMenu">
+                      <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+                      <div class="nav-section-title">Browser Categories</div>
+                      <hr>
+                      <a href="homebage.html">Home</a>
+                      <a href="#">About</a>
+                      <a href="#">Support</a>
+                  
+                      <div class="nav-section-title">car Categories</div>
+                      <hr>
+                      <a href="HYUNDAI.html">Hyundai</a>
+                      <a href="#">BMW</a>
+                      <a href="SKODA.HTML">Skoda</a>
+                      <a href="#">KIA</a>
+                      <a href="#">Toyota</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="contain">
+                <a href="#" class="logo">
+                    <img src="img/logoo.jpg" alt="">
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search for products" required>
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <button onclick="toggleText()" class="dark"  id="toggleBtn">🌙</button>
+            <div onclick="open_cart()" class="icon">
+        </div>
+    </header>
+
+<div class="body">
+    <div class="bannar">
+        <div class="cars">
+            <div class="car">
+                <div class="img">
+                    <img src="img/Hyundai/0.png" alt="">
+                </div>
+                <div class="info">
+                    <h1>Hyundai Accent</h1>
+                    <h2>price : 22000</h2>
+                    <p>-<span>Engine</span>: 1.6L 4-cylinder (Gasoline). </p> 
+                    <p>-<span>Power</span>: 120–130 HP.  </p> 
+                    <P>-<span>Transmission</span>: 6-speed Manual / 6-speed Automatic.</p>   
+                    <p>-<span>Fuel Efficiency</span>: ~28–35 MPG (15–18 km/l).  </p> 
+                    <p>-<span>Key Features</span>: Touchscreen infotainment,
+                         rearview camera, Apple CarPlay/Android Auto,
+                          LED daytime lights. 
+                    </p>
+                </div>
+                <br>
+            </div>
+            <div class="car">
+                <div class="img">
+                    <img src="img/Hyundai/1.png" alt="">
+                </div>
+                <div class="info">
+                    <h1>Hyundai Elantra</h1>
+                    <h2>price : 28000</h2>
+                    <p>- <span>Engine</span>: 2.0L 4-cylinder (Gasoline) / 1.6L Turbo Hybrid.</p>  
+                    <P>- <span>Power</span>: 147–180 HP. </p>
+                    <p>- <span>Transmission</span>: IVT (CVT) / 7-speed DCT (Dual-Clutch). </p> 
+                    <p>- <span>Fuel Efficiency</span>: ~33–45 MPG (14–20 km/l).  </p>
+                    <p>- <span>Key Features</span>: 10.25-inch digital cluster, Bose premium audio, wireless charging, Hyundai SmartSense (safety suite). </p>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="banar1">
+            <br>
+            <hr>
+            <br>
+            <div class="cars">
+                <div class="car">
+                    <div class="img">
+                        <img src="img/Hyundai/2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Hyundai Sonata</h1>
+                        <h2>price : 30000</h2>
+                        <p>-<span>Engine</span>: 2.5L 4-cylinder / 1.6L Turbo Hybrid.</p>  
+                        <p>-<span>Power</span>: 180–226 HP.  </p>
+                        <p>-<span>Transmission</span>: 8-speed Automatic. </p> 
+                        <p>-<span>Fuel Efficiency</span>: ~27–52 MPG (12–22 km/l).  </p>
+                        <p>-<span>Key Features</span>: Panoramic sunroof, leather seats, 12.3-inch touchscreen, blind-spot monitoring. 
+                        </p>
+                    </div>
+                    <br>
+                </div>
+                <div class="car">
+                    <div class="img">
+                        <img src="img/Hyundai/3.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Hyundai Tucson</h1>
+                        <h2>price : 38000</h2>
+                        <p>- <span>Engine</span>: 2.5L 4-cylinder / 1.6L Turbo Hybrid / 2.0L Diesel (varies by region).  
+                        <p>- <span>Power</span>: 180–226 HP.  
+                        <p>- <span>Transmission</span>: 8-speed Automatic / 7-speed DCT.  
+                        <p>- <span>Fuel Efficiency</span>: ~22–38 MPG (9–16 km/l).  
+                        <P>- <span>Key Features</span>: All-wheel drive (AWD), 10.25-inch navi system, ventilated seats, terrain modes.
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="cars">
+                <div class="car">
+                    <div class="img">
+                        <img src="img/Hyundai/4.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Hyundai Santa Fe</h1>
+                        <h2>price : 38000</h2>
+                        <p>- <span>Engine</span>: 2.5L 4-cylinder / 1.6L Turbo Hybrid / 2.2L Diesel. </p>  
+                        <p>- <span>Power</span>: 190–277 HP.  </p> 
+                        <p>- <span>Transmission</span>: 8-speed Automatic / 6-speed Automatic (Diesel).  </p> 
+                        <p>- <span>Fuel Efficiency</span>: ~21–36 MPG (9–15 km/l).  </p> 
+                        <p>- <span>Key Features</span>: 7-seater option, Harman Kardon sound, HUD (Head-Up Display), heated rear seats. 
+                        </p>
+                    </div>
+                    <br>
+                </div>
+                <div class="car">
+                    <div class="img">
+                        <img src="img/Hyundai/5.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Hyundai Kona</h1>
+                        <h2>price : 34000</h2>
+                        <p>- <span>Engine</span>: 2.0L 4-cylinder (Gasoline) / 1.6L Turbo / Electric (39.2–64 kWh battery). </p> 
+                        <p>- <span>Power</span>: 147–276 HP (Electric: 201–276 HP).  </p>
+                        <p>- <span>Transmission</span>: IVT (CVT) / 7-speed DCT.  </p>
+                        <p>- <span>Range (Electric)</span>: 258–305 miles (415–490 km).  </p>
+                        <p>- <span>Key Features</span>: 10.25-inch screen, wireless updates, solar roof (optional), regenerative braking.  </p>
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+        </div>
+    
+        <div class="cars">
+            <div class="car">
+                <div class="img">
+                    <img src="img/Hyundai/6.png" alt="">
+                </div>
+                <div class="info">
+                    <h1>Hyundai Verna</h1>
+                    <h2>price : 25000</h2>
+                    <p>- <span>Engine</span>: 1.5L 4-cylinder (Gasoline / Diesel).  </p>
+                    <p>- <span>Power</span>: 113–115 HP.  </p>
+                    <p>- <span>Transmission</span>: 6-speed Manual / CVT.  </p>
+                    <p>- <span>Fuel Efficiency</span>: ~18–25 km/l.  </p>
+                    <p>- <span>Key Features</span>: 8-inch touchscreen, 
+                        rear AC vents, tire pressure monitor,
+                         sunroof. 
+                    </p>
+                </div>
+                <br>
+            </div>
+            <div class="car">
+                <div class="img">
+                    <img src="img/Hyundai/7.png" alt="">
+                </div>
+                <div class="info">
+                    <h1>Hyundai Creta</h1>
+                    <h2>price : 30000</h2>
+                    <p>-<span>Engine</span> : 1.5L 4-cylinder (Gasoline / Diesel).  </p> 
+                    <p>- <span>Power</span>: 113–115 HP (Gasoline) / 128 HP (Diesel).   </p>
+                    <p>- <span>Transmission</span>: 6-speed Manual / IVT (CVT).   </p>
+                    <p>- <span>Fuel Efficiency</span>: ~16–21 km/l.   </p>
+                    <p>- <span>Key Features</span>: 10.25-inch display,
+                         Bose audio, panoramic sunroof,
+                          rear disc brakes.
+                    </p>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<!--file java-->
+<script src="HYNDAI.JS"></script>
+</body>
+</html>
